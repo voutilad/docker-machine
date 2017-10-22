@@ -1,0 +1,10 @@
+$OpenBSD$
+index 7decc83c..6c2d4622 100644
+--- libmachine/examples/main.go
++++ libmachine/examples/main.go
+@@ -1,3 +1,5 @@
++// +build !openbsd
++
+ package main
+ 
+ import (

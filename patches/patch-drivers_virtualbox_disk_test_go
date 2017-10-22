@@ -1,0 +1,10 @@
+$OpenBSD$
+index b6c59195..d0dfd8f7 100644
+--- drivers/virtualbox/disk_test.go
++++ drivers/virtualbox/disk_test.go
+@@ -1,3 +1,5 @@
++// +build !openbsd
++
+ package virtualbox
+ 
+ import (

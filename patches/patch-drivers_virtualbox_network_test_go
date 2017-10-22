@@ -1,0 +1,10 @@
+$OpenBSD$
+index bcddc1a3..862bcc33 100644
+--- drivers/virtualbox/network_test.go
++++ drivers/virtualbox/network_test.go
+@@ -1,3 +1,5 @@
++// +build !openbsd
++
+ package virtualbox
+ 
+ import (

@@ -1,0 +1,10 @@
+$OpenBSD$
+index 7adb631f..fcd06ea9 100644
+--- drivers/virtualbox/vtx.go
++++ drivers/virtualbox/vtx.go
+@@ -1,3 +1,5 @@
++// +build !openbsd
++
+ package virtualbox
+ 
+ import "strings"
